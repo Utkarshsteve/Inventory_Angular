@@ -13,21 +13,21 @@ export class AppComponent {
     this.products = [new Product(
       "Assassin's Creed",
       'CD',
-      '/assets/images/products/ac_b.jpg',
+      'assets/images/products/ac_b.jpg',
       ['Action-Adventure', 'Single-Player', "Assassin's Creed"],
       1000),
 
     new Product(
       "FIFA 2020",
       'CD',
-      '/assets/images/products/fifa.jpg',
+      'assets/images/products/fifa.jpg',
       ['Sports', 'Multi-Player', "FIFA"],
       1500),
 
     new Product(
       "Grand Theft Auto V",
       'CD',
-      '/assets/images/products/gtaV.jpg',
+      'assets/images/products/gtaV.jpg',
       ['Action-Adventure', 'Multi-Player', "GTA"],
       1200),
     ];
